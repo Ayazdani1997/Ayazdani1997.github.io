@@ -4,13 +4,17 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Ahmadhossein Yazdani. I have been majoring in computer science and computer engineering since 2015, when I entered University of Tehran. I got my Bachelor from University of Tehran, and I am going to start my PhD at Virginia Tech University.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### My interests
+My main interests in computer science are:
 
-What else do you need?
+- Deep Learning
+- Natural Language Processing (NLP)
+- Back-end Development
+- Neuroscience
 
-### my history
+And my main favorite sports are:
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- Football
+- Chess
