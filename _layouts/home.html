@@ -6,6 +6,8 @@ layout: page
 
 {% assign posts = paginator.posts | default: site.posts %}
 
+{% include education.html %}
+
 <div class="posts-list">
   {% for post in posts %}
   <article class="post-preview">

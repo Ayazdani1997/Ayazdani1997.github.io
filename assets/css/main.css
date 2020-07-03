@@ -921,3 +921,30 @@ pre {
   font-style: italic;
   font-size: 1rem;
 }
+
+.education {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.my-card-image {
+  width: 150px;
+  height: 100px;
+}
+
+#education-container {
+  width: 100%;
+  padding-top: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+#accordionEx
+{
+  margin-bottom: 10%;
+}
+
+.bg-gray
+{
+  background-color: #f5f5f5;
+}
