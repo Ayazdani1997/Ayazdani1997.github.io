@@ -922,7 +922,7 @@ pre {
   font-size: 1rem;
 }
 
-.education {
+#education {
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -944,11 +944,9 @@ pre {
   width: 100%;
   padding-top: 5%;
   margin-top: 5%;
-  margin-bottom: 10%;
 }
 
-#accordionEx
-{
+#main-body{
   margin-bottom: 10%;
 }
 
