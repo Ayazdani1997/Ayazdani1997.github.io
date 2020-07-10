@@ -940,6 +940,19 @@ pre {
   text-align: center;
 }
 
+.image-card-subtitle {
+  color: black;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.image-card-description{
+  color: #636363;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 #education-container {
   width: 100%;
   padding-top: 5%;
@@ -947,10 +960,22 @@ pre {
 }
 
 #main-body{
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .bg-gray
 {
   background-color: #f5f5f5;
+}
+
+.section-title
+{
+  padding-left: 20%;
+}
+
+.section-title::after{
+  content:' ';
+  display:block;
+  border:2px solid black;
+  padding-left: 20%;
 }
