@@ -932,9 +932,13 @@ pre {
   /*height: 100px;*/
 }
 
-.image-container {
-  text-align: center;
+
+.section-body-container{
+  padding-left: 25%;
+  padding-right: 25%;
 }
+
+
 
 .image-title-container {
   text-align: center;
@@ -970,12 +974,12 @@ pre {
 
 .section-title
 {
-  padding-left: 20%;
+  padding-left: 5%;
 }
 
 .section-title::after{
   content:' ';
   display:block;
   border:2px solid black;
-  padding-left: 20%;
+  padding-left: 5%;
 }
