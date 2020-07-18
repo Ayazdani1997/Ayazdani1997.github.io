@@ -935,6 +935,9 @@ pre {
   padding-bottom: 5%;
 }
 
+.circular_square{
+  border-radius: 50%;
+}
 
 
 .image-description-container {
