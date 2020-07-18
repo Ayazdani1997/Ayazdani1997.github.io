@@ -922,11 +922,6 @@ pre {
   font-size: 1rem;
 }
 
-#education {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
 .my-card-image {
   width: 100%;
   /*height: 100px;*/
@@ -936,6 +931,8 @@ pre {
 .section-body-container{
   padding-left: 25%;
   padding-right: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 
@@ -957,7 +954,7 @@ pre {
   margin-bottom: 5px;
 }
 
-#education-container {
+.page-section {
   width: 100%;
   padding-top: 5%;
   margin-top: 5%;

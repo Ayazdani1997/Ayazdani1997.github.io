@@ -56,9 +56,6 @@ share-links-active:
 # Remove this if you don't want a link in the footer
 url-pretty: "My Website"
 
-# Create a "tags" index page and make tags on each post clickable
-link-tags: true
-
 # Excerpt Word Length - Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 50
 
@@ -84,35 +81,14 @@ footer-link-col: "#bf1290"
 #page-img: "/assets/img/title-img.jpg"
 
 
-title-separator: "-"
-
-# Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
 
 
-
-# --- You don't need to touch anything below here (but you can if you want) --- #
-
-# Output options (more information on Jekyll's site)
-timezone: "Iran/Tehran"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
 
 kramdown:
   input: GFM
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      readtime: false # add estimated reading time on all blog posts
   -
     scope:
       path: "" # all files
