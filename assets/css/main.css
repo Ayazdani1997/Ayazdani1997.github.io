@@ -928,6 +928,11 @@ pre {
   padding-right: 25%;
 }
 
+#vt-img{
+  width: 95%;
+  height: 95%;
+}
+
 .section-body-container{
   padding-left: 25%;
   padding-right: 25%;
@@ -940,7 +945,6 @@ pre {
   border-style: solid;
   border-color: gray;
 }
-
 
 .image-description-container {
   text-align: center;
@@ -957,6 +961,11 @@ pre {
   font-size: 13px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.page-section-row
+{
+  width: 100%;
 }
 
 .page-section {
