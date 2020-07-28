@@ -929,8 +929,8 @@ pre {
 }
 
 #vt-img{
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
 }
 
 .section-body-container{
@@ -961,11 +961,6 @@ pre {
   font-size: 13px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.page-section-row
-{
-  width: 100%;
 }
 
 .page-section {
