@@ -946,9 +946,7 @@ pre {
 }
 
 .circular_square{
-  border-radius: 50%;
-  border-style: solid;
-  border-color: gray;
+  border-radius: 20%;
 }
 
 .image-description-container {
