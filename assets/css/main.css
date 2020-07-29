@@ -933,6 +933,11 @@ pre {
   height: 100%;
 }
 
+#vt-img-card-container{
+  padding-left: 30%;
+  padding-right: 27%;
+}
+
 .section-body-container{
   padding-left: 25%;
   padding-right: 25%;
