@@ -946,6 +946,12 @@ pre {
   text-align: center;
 }
 
+.card-avatar
+{
+  width: 100px;
+  height: 100px;
+}
+
 .image-card-subtitle {
   color: black;
   font-size: 15px;
