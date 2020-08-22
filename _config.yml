@@ -37,18 +37,18 @@ avatar: "/assets/img/title-img.jpg"
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
   email: "ahmadhossein.yazdani@gmail.com"
-  #facebook: deanattali
+  facebook: hossein.tazehyazd
   github: Ayazdani1997
-  twitter: AhmadHYazdaniUT
+  twitter: AhmadHYazdani
   linkedin: ahmadhossein-yazdani-6560b3138
-  telegram: AhmadHYazdaniUT
+  telegram: AhmadHYazdani
 
 # --- General options --- #
 
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
+  facebook: true
   linkedin: true
   vk: false
 
