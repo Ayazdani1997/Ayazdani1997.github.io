@@ -969,7 +969,6 @@ pre {
 
 
 #main-body{
-  margin-bottom: 5%;
   margin-top: 15px;
 }
 
@@ -1001,3 +1000,17 @@ pre {
 }
 
 /* end of section decoration */
+
+
+/*
+ About me styling
+ */
+
+.aboutme
+{
+  padding-bottom: 5%;
+}
+
+.intersection_margin {
+  margin-bottom: 30px;
+}
