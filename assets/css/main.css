@@ -433,131 +433,6 @@ footer .footer-custom-content {
   }
 }
 
-/* --- Post preview --- */
-
-.post-preview {
-  padding: 1.25rem 0;
-  border-bottom: 1px solid #eee;
-}
-
-@media (min-width: 768px) {
-  .post-preview {
-    padding: 2.1875rem 0;
-  }
-}
-
-.post-preview:last-child {
-  border-bottom: 0;
-}
-
-.post-preview a {
-  text-decoration: none;
-  color: #404040;
-}
-
-.post-preview a:focus,
-.post-preview a:hover {
-  text-decoration: none;
-  color: {{ site.hover-col | default: "#0085A1" }};
-}
-
-.post-preview .post-title {
-  font-size: 1.875rem;
-  margin-top: 0;
-}
-.post-preview .post-subtitle {
-  margin: 0;
-  font-weight: 300;
-  margin-bottom: 0.625rem;
-}
-.post-preview .post-meta,
-.post-heading .post-meta {
-  color: #808080;
-  font-size: 1.125rem;
-  font-style: italic;
-  margin: 0 0 0.625rem;
-}
-.post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-.post-entry-container {
-  display: inline-block;
-  width: 100%;
-}
-.post-entry {
-  width: 100%;
-}
-.post-image {
-  float: right;
-  height: 12rem;
-  width: 12rem;
-  margin-top: -2.1875rem;
-  filter: grayscale(90%);
-}
-.post-image:hover {
-  filter: grayscale(0%);
-}
-.post-image img {
-  border-radius: 6.25rem;
-  height: 12rem;
-  width: 12rem;
-}
-.post-preview .post-read-more {
-  font-weight: 800;
-}
-
-@media (min-width: 768px) {
-  .post-preview .post-title {
-    font-size: 2.25rem;
-  }
-}
-
-/* --- Tags --- */
-
-.blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #999;
-  font-size: 0.9375rem;
-  margin-bottom: 1.875rem;
-}
-
-.blog-tags a {
-  color: {{ site.link-col | default: "#008AFF" }};
-  text-decoration: none;
-  padding: 0 0.3125rem;
-}
-
-.blog-tags a:hover {
-  border-radius: 2px;
-  color: {{ site.hover-col | default: "#0085A1" }};
-  background-color: #EEE;
-}
-
-.post-preview .blog-tags {
-  margin-top: 0.3125rem;
-  margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  .post-preview .blog-tags {
-    margin-top: 0.625rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .post-image, .post-image img {
-    height: 6.25rem;
-    width: 6.25rem;
-  }
-
-  .post-image {
-    width: 100%;
-    text-align: center;
-    margin-top: 0;
-    float: left;
-  }
-}
-/* --- Post and page headers --- */
 
 .intro-header {
   margin: 5rem 0 1.25rem;
@@ -589,8 +464,8 @@ footer .footer-custom-content {
 .intro-header .page-heading {
   text-align: center;
 }
-.intro-header.big-img .page-heading,
-.intro-header.big-img .post-heading {
+.intro-header.big-img,
+.intro-header.big-img {
   padding: 6.25rem 0;
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
@@ -599,12 +474,12 @@ footer .footer-custom-content {
   margin-top: 0;
   font-size: 3.125rem;
 }
-.intro-header .post-heading h1 {
+.intro-header {
   margin-top: 0;
   font-size: 2.1875rem;
 }
 .intro-header .page-heading .page-subheading,
-.intro-header .post-heading .post-subheading {
+.intro-header{
   font-size: 1.6875rem;
   line-height: 1.1;
   display: block;
@@ -612,11 +487,11 @@ footer .footer-custom-content {
   font-weight: 300;
   margin: 0.625rem 0 0;
 }
-.intro-header .post-heading .post-subheading {
+.intro-header{
   margin-bottom: 1.25rem;
 }
 .intro-header.big-img .page-heading .page-subheading,
-.intro-header.big-img .post-heading .post-subheading {
+.intro-header.big-img {
   font-weight: 400;
 }
 .intro-header.big-img .page-heading hr {
@@ -624,7 +499,7 @@ footer .footer-custom-content {
   -webkit-box-shadow: 1px 1px 3px #000;
   -moz-box-shadow: 1px 1px 3px #000;
 }
-.intro-header.big-img .post-heading .post-meta {
+.intro-header.big-img {
   color: #EEE;
 }
 .intro-header.big-img .img-desc {
@@ -646,13 +521,13 @@ footer .footer-custom-content {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
   }
   .intro-header.big-img .page-heading,
-  .intro-header.big-img .post-heading {
+  .intro-header.big-img {
     padding: 9.375rem 0;
   }
   .intro-header .page-heading h1 {
     font-size: 5rem;
   }
-  .intro-header .post-heading h1 {
+  .intro-header {
     font-size: 3.125rem;
   }
   .intro-header.big-img .img-desc {
@@ -680,7 +555,7 @@ footer .footer-custom-content {
     height: 13.75rem;
   }
   .intro-header.big-img .page-heading,
-  .intro-header.big-img .post-heading {
+  .intro-header.big-img{
     display: none;
   }
   .header-section.has-img .big-img {

@@ -35,13 +35,6 @@
       <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
       {% endif %}
       {% endif %}
-      
-      {% if include.type == "post" %}
-          <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
-          {% if page.readtime %}
-            {% include readtime.html %}
-          {% endif %}
-      {% endif %}
         </div>
       </div>
     </div>
@@ -62,13 +55,6 @@
       {% else %}
       <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
       {% endif %}
-      {% endif %}
-      
-      {% if include.type == "post" %}
-          <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
-          {% if page.readtime %}
-            {% include readtime.html %}
-          {% endif %}
       {% endif %}
         </div>
       </div>
