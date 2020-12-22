@@ -1,0 +1,24 @@
+<div class="container mt-5 mb-5 border">
+    <div class="div-max-width">
+        <div class="row">
+            <div class="col-lg-6">
+                <img
+                     src="{{ 'assets/img/ahmad.jpg' | relative_url }}" />
+            </div>
+            <div class="col-lg-6 border bg-gray pt-3 pb-3">
+                <h3> Who is Ahmad Hossein Yazdani? </h3>
+                {% include bio.md %}
+                <br>
+                <br>
+                <div class="div-max-width">
+                    <div class="w-50 mx-auto">
+                        <a href="{{ '/aboutme.html' | relative_url }}"
+                           class="btn btn-primary btn-sm active" role="button" aria-pressed="true">
+                            Read more about me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

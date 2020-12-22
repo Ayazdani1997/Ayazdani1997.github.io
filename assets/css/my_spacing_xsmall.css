@@ -1,0 +1,9 @@
+@media (max-width: 350px) {
+    .my_mt_xs_only_1 {
+        margin-top: 35px !important;
+    }
+
+    .my_mt_xs_only_2{
+        margin-top: 70px !important;
+    }
+}

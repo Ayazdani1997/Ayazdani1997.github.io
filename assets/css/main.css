@@ -4,6 +4,7 @@ layout: null
 
 @import url("pygment_highlights.css");
 
+
 /* --- General --- */
 
 html {
@@ -876,12 +877,6 @@ pre {
   padding-left: 5%;
 }
 
-.section-title::after{
-  content:' ';
-  display:block;
-  border:2px solid black;
-  padding-left: 5%;
-}
 
 /* end of section decoration */
 

@@ -12,9 +12,9 @@ author: Ahmad Hossein Yazdani
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Home: "index"
   About Me: "aboutme"
   Download CV: "/CV/Ahmad Hossein Yazdani CV.pdf"
+  Teaching Experience: "teaching_assistance.html"
 
 # --- Logo --- #
 
