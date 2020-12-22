@@ -13,8 +13,8 @@ author: Ahmad Hossein Yazdani
 
 navbar-links:
   About Me: "aboutme"
-  Download CV: "/CV/Ahmad Hossein Yazdani CV.pdf"
-  Teaching Experience: "teaching_assistance.html"
+  CV: "/CV/Ahmad Hossein Yazdani CV.pdf"
+  Teaching: "teaching_assistance.html"
 
 # --- Logo --- #
 
