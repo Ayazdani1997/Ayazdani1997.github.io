@@ -14,6 +14,7 @@ author: Ahmad Hossein Yazdani
 navbar-links:
   About Me: "aboutme"
   Teaching: "teaching_assistance.html"
+  CV: "/CV/cv.pdf"
 
 # --- Logo --- #
 
