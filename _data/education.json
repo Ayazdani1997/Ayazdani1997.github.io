@@ -1,0 +1,31 @@
+{
+  "schools":
+          [
+            {
+              "name": "Allameh Helli3 High School",
+              "degree": "Diploma and pre-university",
+              "field": "Mathematics and Physics",
+              "start_year": "2011",
+              "end_year": "2015",
+              "image_url": "/assets/img/helli3_logo.jpg"
+            },
+            {
+              "name": "University of Tehran",
+              "degree": "Bachelor",
+              "field": "Computer Software Engineering",
+              "start_year": "2015",
+              "end_year": "2020",
+              "url": "https://ut.ac.ir",
+              "image_url": "/assets/img/ut_logo.jpg"
+            },
+            {
+              "name": "Virginia Tech",
+              "degree": "PhD candidate",
+              "field": "Computer Science",
+              "start_year": "2020",
+              "end_year": "Present",
+              "url": "https://vt.edu",
+              "image_url": "/assets/img/vt_logo.jpg"
+            }
+          ]
+}

@@ -51,6 +51,7 @@ h4 {
 a {
   color: {{ site.link-col | default: "#008AFF" }};
 }
+
 a:hover,
 a:focus {
   color: {{ site.hover-col | default: "#0085A1" }};
@@ -396,6 +397,10 @@ footer p.text-muted {
 
 footer a {
   color: {{ site.footer-link-col | default: "#404040" }};
+}
+
+#footer_url {
+  color: dodgerblue;
 }
 
 footer .list-inline {
@@ -850,3 +855,27 @@ pre {
 }
 
 /* End of about me styling */
+
+
+/* home bio styling */
+
+.my-btn {
+  background-color: #861F41;
+  color: white;
+  width: 100%;
+}
+
+.my-btn:hover {
+  color: yellow;
+}
+
+.read-more-container {
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+.btn-center {
+  padding-right: 25%;
+  padding-left: 25%;
+}
+/* end of home bio styling */

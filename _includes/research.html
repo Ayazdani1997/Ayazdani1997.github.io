@@ -7,29 +7,35 @@
             <div class="section-body-container div-max-width">
                 <div class="card-deck">
                     <div class="row div-max-width mx-0">
-                        <div class="container">
-                            <div class="row">
-                                <img class="img-thumbnail mx-auto card-avatar"
-                                     src="{{'/assets/img/book.png' | absolute_url }}" alt="Card image">
-                            </div>
-                            <div class="row">
-                                <div class="card-body image-description-container">
-                                    <h5 class="card-title">
-                                        <a href="https://dssl.cs.vt.edu">
-                                            Distributed System and Storage lab
-                                        </a>
-                                    </h5>
-                                    <div class="image-card-subtitle">Virginia Tech.</div>
-                                    <div class="image-card-subtitle"></div>
-                                    <div class="image-card-description">
-                                        Advisor: Dr. Ali Butt
-                                    </div>
-                                    <div class="image-card-description">
-                                        August 2020 - Present
+                        {% for experience in site.data.research.labs %}
+                            <div class="col-lg-4 col-md-6">
+                                <div class="row">
+                                    <img class="img-thumbnail mx-auto card-avatar"
+                                         src="{{'/assets/img/book.png' | absolute_url }}" alt="Card image">
+                                </div>
+                                <div class="row">
+                                    <div class="card-body image-description-container">
+                                        <h5 class="card-title">
+                                            {% if experience.url %}
+                                                <a href="{{ experience.url }}">
+                                            {% endif %}
+                                                {{experience.name}}
+                                            {% if experience.url %}
+                                                </a>
+                                            {% endif %}
+                                        </h5>
+                                        <div class="image-card-subtitle">{{experience.company}}</div>
+                                        <div class="image-card-subtitle"></div>
+                                        <div class="image-card-description">
+                                            Advisor: {{experience.advisor}}
+                                        </div>
+                                        <div class="image-card-description">
+                                            {{experience.start_date}} - {{experience.end_date}}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>

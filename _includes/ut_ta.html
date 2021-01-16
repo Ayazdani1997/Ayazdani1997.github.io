@@ -1,79 +1,25 @@
 <div class="card-deck">
     <div class="row mx-0 div-max-width">
-        <div class="col-md-6">
-            <div class="row">
-                <img class="img-thumbnail mx-auto card-avatar"
-                     src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
-            </div>
-            <div class="row">
-                <div class="card-body image-description-container">
-                    <h5 class="card-title">Programming Languages and Compilers</h5>
-                    <div class="image-card-subtitle">University of Tehran</div>
-                    <div class="image-card-description">
-                        Homework organizer and course project grading TA
-                    </div>
-                    <div class="image-card-description">
-                        September 2018 - January 2019
+        {% for experience in site.data.ta.ut %}
+            <div class="col-md-6 col-lg-4">
+                <div class="row">
+                    <img class="img-thumbnail mx-auto card-avatar"
+                         src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
+                </div>
+                <div class="row">
+                    <div class="card-body image-description-container">
+                        <h5 class="card-title">{{ experience.course_title }}</h5>
+                        <div class="image-card-subtitle">University of Tehran</div>
+                        <div class="image-card-description">
+                            {{ experience.role }}
+                        </div>
+                        <div class="image-card-description">
+                            {{ experience.start_date }} - {{ experience.end_date }}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row">
-                <img class="img-thumbnail mx-auto card-avatar"
-                     src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
-            </div>
-            <div class="row">
-                <div class="card-body image-description-container">
-                    <h5 class="card-title">Programming Languages and Compilers</h5>
-                    <div class="image-card-subtitle">University of Tehran</div>
-                    <div class="image-card-description">
-                        Project organizer
-                    </div>
-                    <div class="image-card-description">
-                            February 2019 - July 2019
-                    </div>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 
-    <div class="row mx-0 div-max-width">
-        <div class="col-md-6">
-            <div class="row">
-                <img class="img-thumbnail mx-auto card-avatar"
-                     src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
-            </div>
-            <div class="row">
-                <div class="card-body image-description-container">
-                    <h5 class="card-title">Formal Methods in Software Engineering</h5>
-                    <div class="image-card-subtitle">University of Tehran</div>
-                    <div class="image-card-description">
-                        Both homework and project organizer
-                    </div>
-                    <div class="image-card-description">
-                        September 2019 - January 2020
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row">
-                <img class="img-thumbnail mx-auto card-avatar"
-                     src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
-            </div>
-            <div class="row">
-                <div class="card-body image-description-container">
-                    <h5 class="card-title">Artificial Intelligence</h5>
-                    <div class="image-card-subtitle">University of Tehran</div>
-                    <div class="image-card-description">
-                        Both homework and project organizer
-                    </div>
-                    <div class="image-card-description">
-                        February 2020 - August 2020
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
