@@ -10,86 +10,8 @@ title: Teaching Experience
             </h3>
         </div>
         <div class="row">
-            <div class="section-body-container">
-                <div class="card-deck">
-                    <div class="row mx-0">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <img class="img-thumbnail mx-auto card-avatar"
-                                     src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
-                            </div>
-                            <div class="row">
-                                <div class="card-body image-description-container">
-                                    <h5 class="card-title">Programming Languages and Compilers</h5>
-                                    <div class="image-card-subtitle">University of Tehran</div>
-                                    <div class="image-card-description">
-                                        Homework organizer and course project grading TA
-                                    </div>
-                                    <div class="image-card-description">
-                                        September 2018 - January 2019
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <img class="img-thumbnail mx-auto card-avatar"
-                                     src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
-                            </div>
-                            <div class="row">
-                                <div class="card-body image-description-container">
-                                    <h5 class="card-title">Programming Languages and Compilers</h5>
-                                    <div class="image-card-subtitle">University of Tehran</div>
-                                    <div class="image-card-description">
-                                        Project organizer
-                                    </div>
-                                    <div class="image-card-description">
-                                        February 2019 - July 2019
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row mx-0">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <img class="img-thumbnail mx-auto card-avatar"
-                                     src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
-                            </div>
-                            <div class="row">
-                                <div class="card-body image-description-container">
-                                    <h5 class="card-title">Formal Methods in Software Engineering</h5>
-                                    <div class="image-card-subtitle">University of Tehran</div>
-                                    <div class="image-card-description">
-                                        Both homework and project organizer
-                                    </div>
-                                    <div class="image-card-description">
-                                        September 2019 - January 2020
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <img class="img-thumbnail mx-auto card-avatar"
-                                     src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
-                            </div>
-                            <div class="row">
-                                <div class="card-body image-description-container">
-                                    <h5 class="card-title">Artificial Intelligence</h5>
-                                    <div class="image-card-subtitle">University of Tehran</div>
-                                    <div class="image-card-description">
-                                        Both homework and project organizer
-                                    </div>
-                                    <div class="image-card-description">
-                                        February 2020 - August 2020
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="section-body-container div-max-width">
+                {% include ut_ta.html %}
             </div>
         </div>
     </div>
@@ -103,28 +25,7 @@ title: Teaching Experience
         </div>
         <div class="row">
             <div class="section-body-container div-max-width">
-                <div class="card-deck">
-                    <div class="row div-max-width mx-0">
-                        <div class="container">
-                            <div class="row">
-                                <img class="img-thumbnail mx-auto card-avatar"
-                                     src="{{'/assets/img/teaching.jpg' | absolute_url }}" alt="Card image">
-                            </div>
-                            <div class="row">
-                                <div class="card-body image-description-container">
-                                    <h5 class="card-title">Introduction to Software Design</h5>
-                                    <div class="image-card-subtitle">Virginia Tech.</div>
-                                    <div class="image-card-description">
-                                        Lab and programming assignments TA
-                                    </div>
-                                    <div class="image-card-description">
-                                        August 2020 - December 2020
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {% include vt_ta.html %}
             </div>
         </div>
     </div>

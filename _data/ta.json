@@ -1,0 +1,43 @@
+{
+  "ut": [
+    {
+      "course_title": "Programming Languages and Compilers",
+      "role": "Homework organizer and course project grading TA",
+      "start_date": "September 2018",
+      "end_date": "January 2019"
+    },
+    {
+      "course_title": "Programming Languages and Compilers",
+      "role": "Project organizer",
+      "start_date": "February 2019",
+      "end_date": "July 2019"
+    },
+    {
+      "course_title": "Formal Methods in Software Engineering",
+      "role": "Both homework and project organizer",
+      "start_date": "September 2019",
+      "end_date": "January 2020"
+    },
+    {
+      "course_title": "Artificial Intelligence",
+      "role": "Both homework and project organizer",
+      "start_date": "February 2020",
+      "end_date": "August 2020"
+    }
+
+  ],
+  "vt": [
+    {
+      "course_title": "Introduction to Software Design",
+      "role": "Lab and programming assignments TA",
+      "start_date": "August 2020",
+      "end_date": "December 2020"
+    },
+    {
+      "course_title": "Intermediate Software Design and Engineering",
+      "role": "Assignments' TA",
+      "start_date": "January 2021",
+      "end_date": "May 2021"
+    }
+  ]
+}

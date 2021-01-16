@@ -807,51 +807,6 @@ pre {
 }
 /* end of div styling */
 
-/* image cards */
-
-.image-center
-{
-  padding-right: 25%;
-  padding-left: 25%;
-}
-
-.section-body-container{
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.circular_square{
-  border-radius: 20%;
-}
-
-.image-description-container {
-  text-align: center;
-}
-
-.card-avatar
-{
-  width: 100px;
-  height: 100px;
-}
-
-.image-card-subtitle {
-  color: black;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-
-.image-card-description{
-  color: #636363;
-  font-size: 13px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-
-/* end of image cards */
-
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait and Landscape */
@@ -893,3 +848,5 @@ pre {
 .intersection_margin {
   margin-bottom: 30px;
 }
+
+/* End of about me styling */
