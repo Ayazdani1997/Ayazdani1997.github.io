@@ -7,9 +7,11 @@
   {% if site.author %}
   <meta name="author" content="{{ site.author }}">
   {% endif %}
-  
-  {% if page.subtitle %}
-  <meta name="description" content="{{ page.subtitle }}">
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% elsif page.subtitle %}
+    <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | default: 'Untitled' }} {{ site.title-separator | default: '-' }} {{ site.description }}" href="{{ '/feed.xml' | absolute_url }}">
