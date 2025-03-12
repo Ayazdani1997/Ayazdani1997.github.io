@@ -22,10 +22,10 @@ jobs:
         ruby-version: '3.1'
         bundler-cache: true
     - name: Update Bundler
-        run: |
-          gem update --system
-          gem install bundler
-          bundle update --bundler
+      run: |
+        gem update --system
+        gem install bundler
+        bundle update --bundler
 
     - name: Remove Old Dependencies (Fix uri Conflict)
       run: |
