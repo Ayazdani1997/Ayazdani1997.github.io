@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
-ruby '~> 3.2'
+ruby '~> 3.1'
 
 
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem "jekyll", "~> 4.2.0"
+    gem "jekyll"
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
