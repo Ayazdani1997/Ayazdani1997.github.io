@@ -12,14 +12,14 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.4.2'
+        ruby-version: '3.3.0'
         bundler-cache: true
     - name: Update Bundler
         run: |
