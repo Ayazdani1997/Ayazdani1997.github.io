@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science PhD student at Virginia Tech
+subtitle: Computer Science PhD Candidate at Virginia Tech
 
 profile:
   align: right
   image: ahmad.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Computer Science PhD student at Virginia Tech </p>
+    <p>Computer Science PhD Candidate at Virginia Tech </p>
     <p>ahmadyazdani@vt.edu</p>
 
 news: true  # includes a list of news items
