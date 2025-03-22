@@ -16,24 +16,12 @@ on:
 
 jobs:
   build:
-<<<<<<< HEAD
-
-    runs-on: ubuntu-22.04
-    if: github.repository_owner == 'alshedivat'
-
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Buildx
-      uses: docker/setup-buildx-action@v1
-=======
     runs-on: ubuntu-latest
     if: github.repository_owner == 'alshedivat'
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
->>>>>>> upstream/main
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
