@@ -33,6 +33,7 @@ group :other_plugins do
     gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
     gem 'activesupport', '< 8.0'
+    gem 'sass-embedded', '< 1.85'
     # gem 'terser'         # used by jekyll-terser
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
