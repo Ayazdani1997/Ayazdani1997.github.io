@@ -12,9 +12,18 @@ profile:
     <p>Computer Science PhD Candidate at Virginia Tech </p>
     <p>ahmadyazdani@vt.edu</p>
 
-news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 My name is Ahmad Hossein Yazdani. I got my bachelor's in computer software engineering from the University of Tehran Iran in 2020. Currently, I'm doing my PhD at Virginia Tech. University in Blacksburg, VA, US since August 2020 in computer science under the supervision of Dr. Ali Butt at Distributed System and Storage Lab. I have also experienced doing intern at Oak Ridge National Laboratory, supervised by Feiyi Wang, Sarp Oral, Ahmad Maroof Karimi, and Arnab Kamur Paul. Additionally, I have served as an intern at Lawrence Berkeley National Laboratory in Berkeley, California, the United States under the supervision of Suren Byna and Jean Luca Bez. 
 which is to extend my research on identifying the sources of I/O variance in HPC systems. I recently did another internship at NERSC, Lawrence Berkeley National Laboratory (LBNL) which was on finding directions to resolve the false warnings of Drishti, and I/O recommender tool for HPC applications, and to concretize its recommendations (Like 

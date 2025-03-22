@@ -1,0 +1,24 @@
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/json-2.10.2/ext/json/ext/parser
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... yes
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250322-9835-m6qucn sitelibdir\=./.gem.20250322-9835-m6qucn clean
+
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250322-9835-m6qucn sitelibdir\=./.gem.20250322-9835-m6qucn
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250322-9835-m6qucn sitelibdir\=./.gem.20250322-9835-m6qucn install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20250322-9835-m6qucn/json/ext
+
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250322-9835-m6qucn sitelibdir\=./.gem.20250322-9835-m6qucn clean

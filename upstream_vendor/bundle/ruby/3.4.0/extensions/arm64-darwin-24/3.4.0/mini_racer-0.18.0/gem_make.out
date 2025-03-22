@@ -1,0 +1,77 @@
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/mini_racer-0.18.0/ext/mini_racer_extension
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for -lpthread... yes
+checking for -lobjc... yes
+checking for whether -Wl,--exclude-libs=ALL  is accepted as LDFLAGS... no
+creating Makefile
+
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/mini_racer-0.18.0/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20250322-9835-lz03ms sitelibdir\=./.gem.20250322-9835-lz03ms clean
+
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/mini_racer-0.18.0/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20250322-9835-lz03ms sitelibdir\=./.gem.20250322-9835-lz03ms
+compiling mini_racer_extension.c
+In file included from mini_racer_extension.c:11:
+./serde.c:101:27: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  101 |     n = next_power_of_two(n);
+      |         ~~~~~~~~~~~~~~~~~ ^
+./serde.c:111:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  111 |     b->cap = n;
+      |            ~ ^
+./serde.c:393:29: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  393 |         des_object_ref(arg, u);
+      |         ~~~~~~~~~~~~~~      ^
+./serde.c:567:33: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+  567 |         des_bigint(arg, *p, u, 1-2*t);
+      |         ~~~~~~~~~~             ~^~~~
+mini_racer_extension.c:593:23: warning: incompatible pointer types passing 'unsigned long[64]' to parameter of type 'const uint64_t *' (aka 'const unsigned long long *') [-Wincompatible-pointer-types]
+  593 |         ser_bigint(s, limbs, countof(limbs), sign);
+      |                       ^~~~~
+./serde.c:269:48: note: passing argument to parameter 'p' here
+  269 | static void ser_bigint(Ser *s, const uint64_t *p, size_t n, int sign)
+      |                                                ^
+mini_racer_extension.c:518:32: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  518 |             ser_array_begin(s, n);
+      |             ~~~~~~~~~~~~~~~    ^
+mini_racer_extension.c:522:30: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  522 |             ser_array_end(s, n);
+      |             ~~~~~~~~~~~~~    ^
+mini_racer_extension.c:524:31: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  524 |             ser_object_ref(s, FIX2LONG(id));
+      |             ~~~~~~~~~~~~~~    ^~~~~~~~~~~~
+/opt/homebrew/Cellar/ruby/3.4.2/include/ruby-3.4.0/ruby/internal/arithmetic/long.h:46:22: note: expanded from macro 'FIX2LONG'
+   46 | #define FIX2LONG     RB_FIX2LONG          /**< @old{RB_FIX2LONG} */
+      |                      ^
+/opt/homebrew/Cellar/ruby/3.4.2/include/ruby-3.4.0/ruby/internal/arithmetic/long.h:53:22: note: expanded from macro 'RB_FIX2LONG'
+   53 | #define RB_FIX2LONG  rb_fix2long          /**< @alias{rb_fix2long} */
+      |                      ^
+mini_racer_extension.c:553:35: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  553 |                 ser_object_end(s, n);
+      |                 ~~~~~~~~~~~~~~    ^
+mini_racer_extension.c:558:31: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  558 |             ser_object_ref(s, FIX2LONG(id));
+      |             ~~~~~~~~~~~~~~    ^~~~~~~~~~~~
+/opt/homebrew/Cellar/ruby/3.4.2/include/ruby-3.4.0/ruby/internal/arithmetic/long.h:46:22: note: expanded from macro 'FIX2LONG'
+   46 | #define FIX2LONG     RB_FIX2LONG          /**< @old{RB_FIX2LONG} */
+      |                      ^
+/opt/homebrew/Cellar/ruby/3.4.2/include/ruby-3.4.0/ruby/internal/arithmetic/long.h:53:22: note: expanded from macro 'RB_FIX2LONG'
+   53 | #define RB_FIX2LONG  rb_fix2long          /**< @alias{rb_fix2long} */
+      |                      ^
+mini_racer_extension.c:671:31: warning: implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'int' [-Wshorten-64-to-32]
+  671 |     deadline = deadline_ms(c->timeout);
+      |                ~~~~~~~~~~~ ~~~^~~~~~~
+mini_racer_extension.c:752:43: warning: implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'int' [-Wshorten-64-to-32]
+  752 |                 deadline = deadline_ms(c->idle_gc);
+      |                            ~~~~~~~~~~~ ~~~^~~~~~~
+12 warnings generated.
+compiling mini_racer_v8.cc
+clang++: warning: argument unused during compilation: '-rdynamic' [-Wunused-command-line-argument]
+linking shared-object mini_racer_extension.bundle
+ld: warning: ignoring duplicate libraries: '-lpthread'
+
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/mini_racer-0.18.0/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20250322-9835-lz03ms sitelibdir\=./.gem.20250322-9835-lz03ms install
+/usr/bin/install -c -m 0755 mini_racer_extension.bundle ./.gem.20250322-9835-lz03ms
+
+current directory: /Users/ahmadyazdani/Ahmad/Ayazdani1997.github.io/upstream_vendor/bundle/ruby/3.4.0/gems/mini_racer-0.18.0/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20250322-9835-lz03ms sitelibdir\=./.gem.20250322-9835-lz03ms clean
