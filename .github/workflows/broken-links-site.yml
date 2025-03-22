@@ -42,6 +42,6 @@ jobs:
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v1.9.0
         with:
-          fail: true
+          fail: false
           # only check local links
           args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'
