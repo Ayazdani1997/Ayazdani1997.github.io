@@ -11,5 +11,5 @@ assets/libs/
 node_modules/
 vendor
 # upstream_vendor/*
-# upstream_vendor_2/*
+upstream_vendor_2/*
 .idea

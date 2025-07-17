@@ -30,9 +30,9 @@
       institution: Virginia Tech
       year: 2020 - present
       description:
-        - Contributing to Metis project ongoing which is about improving the cachability of the deep learning workloads
-        - Leading collaborative research with Analytics & AI Methods at Scale Group at Oak Ridge National Laboratory (ORNL) on analytically recognizing the behavior of the users and jobs submitted to HPC systems to improve the I/O efficiency of the HPC systems. We have recently started collaborating with Suren Byna and Jean Luca Bez from Lawrence Berkeley National Laboratory (LBNL). The work has been kicked off since the time I interned at ORNL in summer 2021
-        - Leading a collaborative research with Analytics & AI Methods at Scale Group at Oak Ridge National Laboratory (ORNL) and Lawrence Berkeley National Laboratory aiming to address the I/O interference between the training/inference jobs for large AI models in HPC in collaboration with Jean Luca Bez, Ahmad Maroof Karimi, Arnab Kumar Paul, Suren Byna and Feiyi Wang
+        - Contributed to Metis project ongoing which is about improving the cachability of the deep learning workloads
+        - Led collaborative research with Analytics & AI Methods at Scale Group at Oak Ridge National Laboratory (ORNL) on analytically recognizing the behavior of the users and jobs submitted to HPC systems to improve the I/O efficiency of the HPC systems.
+        - Leading a collaborative research with Analytics & AI Methods at Scale Group at Oak Ridge National Laboratory (ORNL) and Lawrence Berkeley National Laboratory aiming to study and resolve the I/O and memory contention between interfering training/inference jobs for large AI models (LLMs specifically) in HPC in collaboration with Jean Luca Bez, Ahmad Maroof Karimi, Arnab Kumar Paul and Suren Byna
     - title: Student Assistant at NERSC, Lawrence Berkeley National Laboratory (LBNL), internship
       institution: Lawrence Berkeley National Laboratory (LBNL)
       year: 2024
@@ -42,12 +42,12 @@
       institution: Lawrence Berkeley National Laboratory (LBNL)
       year: 2023
       description:
-        - Pursuing my research on I/O variance characterization in HPC systems under the supervision of Suren Byna and Jean Luca Bez.
+        - Worked on I/O variance characterization resulting from the interfering HPC workloads under the supervision of Suren Byna and Jean Luca Bez.
     - title: Instructor
       institution: Virginia Tech
       year: 2022 - 2023
       description:
-        - Teaching CS3214, Computer Systems, at Virginia Tech in Fall 2022 and Spring 2023
+        - Taught CS3214, Computer Systems, at Virginia Tech in Fall 2022 and Spring 2023
     - title: Internship at Oak Ridge National Laboratory, Analytics & AI Methods at Scale Group.
       institution: Oak Ridge National Laboratory
       year: 2021
