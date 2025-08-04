@@ -1,10 +1,10 @@
 ---
 layout: post
-semester: Fall 2021, Spring 2022
+semester: Fall 2023, Fall 2024
 name: Computer Systems
 course_id: [CS3214]
-role: TA, holding office hours and grading assignments
+role: head TA, creating rubrics for assignments, logistics coordination
 audience: Computer Science undergrad students
 university: Virginia Tech
-date: 2021-08-20
+date: 2024-08-20
 ---
