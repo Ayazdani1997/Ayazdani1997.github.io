@@ -30,26 +30,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "courses-cs2506-summer-ta-2021",
-          title: 'Cs2506 Summer Ta 2021',
+        },{id: "courses-computer-systems-2022",
+          title: 'Computer Systems 2022',
           description: "",
           section: "Courses",handler: () => {
-              window.location.href = "/courses/cs2506-summer-TA-2021/";
+              window.location.href = "/courses/computer-systems-2022/";
             },},{id: "courses-computer-systems-fall-ta-2021",
           title: 'Computer Systems Fall Ta 2021',
           description: "",
           section: "Courses",handler: () => {
               window.location.href = "/courses/computer-systems-fall-TA-2021/";
-            },},{id: "courses-cs3114-summer-ta-2022",
-          title: 'Cs3114 Summer Ta 2022',
-          description: "",
-          section: "Courses",handler: () => {
-              window.location.href = "/courses/cs3114-summer-TA-2022/";
-            },},{id: "courses-computer-systems-2022",
-          title: 'Computer Systems 2022',
-          description: "",
-          section: "Courses",handler: () => {
-              window.location.href = "/courses/computer-systems-2022/";
             },},{id: "news-our-accepted-paper-in-fast23-was-presented-by-redwan-khan-my-labmate-at-dssl",
           title: 'Our accepted paper in FAST23 was presented by Redwan Khan, my labmate at...',
           description: "",
