@@ -30,19 +30,19 @@
       institution: Virginia Tech
       year: 2020 - present
       description:
-        - Contributed to Metis project ongoing which is about improving the cachability of the deep learning workloads
-        - Led collaborative research with Analytics & AI Methods at Scale Group at Oak Ridge National Laboratory (ORNL) on analytically recognizing the behavior of the users and jobs submitted to HPC systems to improve the I/O efficiency of the HPC systems.
-        - Leading a collaborative research with Analytics & AI Methods at Scale Group at Oak Ridge National Laboratory (ORNL) and Lawrence Berkeley National Laboratory aiming to study and resolve the I/O and memory contention between interfering training/inference jobs for large AI models (LLMs specifically) in HPC in collaboration with Jean Luca Bez, Ahmad Maroof Karimi, Arnab Kumar Paul and Suren Byna
+       - '\(\small \textbf{Metis:}\) The project introduces a data access pattern for Deep Learning workloads to improve cachability. With a small cache, it improves the hit ratio by up to 4.5× compared to the LRU policy.'
+       - '\(\small \textbf{User I/O profiling:}\) Led a collaborative research with Analytics \& AI Methods at Scale Group at ORNL on analytically recognizing user/job behavior in HPC to improve I/O efficiency. The analysis revealed that a users'' job I/O pattern can be predicted over 10 days with >90% accuracy based on app-level I/O stats and app patterns.'
+       - '\(\small \textbf{LLMStore:}\) A collaborative project with ORNL and LBNL to minimize offloading of parameters, optimizer state, and activations in HPC via caching and deduplication. Initial analysis showed >300 GB tensor-offloading traffic for LLaMA fine-tuning.'
     - title: Student Assistant at NERSC, Lawrence Berkeley National Laboratory (LBNL), internship
       institution: Lawrence Berkeley National Laboratory (LBNL)
       year: 2024
       description:
-        - I investigated the causes of I/O hotspots in HPC applications and analyzed common performance issues. Specifically, I examined Drishti, an HPC I/O recommendation tool, and found it generates many false positive warnings. In future work, I plan to address these inaccuracies, enhance Drishti's ability to provide more reliable I/O optimization recommendations, and improve its capacity to predict job performance based on suggested configurations.
+        - I investigated the causes of I/O hotspots in HPC applications and analyzed common performance issues. Specifically, I examined Drishti, an HPC I/O recommendation tool, and found it generates many false positive warnings, and derived insights to improve the accuracy of the the Drishti I/O recommendation tool.
     - title: Student Assistant at Lawrence Berkeley National Laboratory (LBNL), internship
       institution: Lawrence Berkeley National Laboratory (LBNL)
       year: 2023
       description:
-        - Worked on I/O variance characterization resulting from the interfering HPC workloads under the supervision of Suren Byna and Jean Luca Bez.
+        - I continued my research on characterizing the sources of I/O performance variation in HPC, and striving to alleviate the I/O performance variability. I found out a significant I/O variability for various HPC applications like E3SM (For earth modeling) and LAMMP (For molecular simulations). Later continued my research for Large AI models and language models which I'm working on in the LLMStore project
     - title: Instructor
       institution: Virginia Tech
       year: 2022 - 2023
@@ -52,10 +52,7 @@
       institution: Oak Ridge National Laboratory
       year: 2021
       description:
-        - Supervised by Feiyi Wang, Sarp Oral, Ahmad Maroof Karimi and Arnab Kamur Paul
-        - First studied the literature on I/O characterization at the application level to get insights for building an application and user-aware I/O scheduler
-        - Then collected I/O information of different users and different applications, and showed the user’s behavior affects the I/O performance quite a lot
-        - And finally, presented my work at the Internship Symposium held for the interns who joined the national lab in the summer 2021
+        - I studied and characterized the application I/O pattern using clustering techniques, and then extracted features from their submitter like the job runs of the same application over a time-window for that user, the scale of the job submissions the submitter tends to submit. This work resulted in my ICDCN'25 paper, where I was able to predict the I/O pattern of the next job given the features from the past submissions of the same user with an accuracy of nearly 90% for HPC jobs.
 - title: Honors and Awards
   type: time_table
   contents:
