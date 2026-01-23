@@ -61,6 +61,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-thrilled-to-announce-that-our-paper-titled-user-based-i-o-profiling-for-leadership-scale-hpc-workloads-has-been-accepted-to-icdcn25-to-be-held-in-haydarabad-india-january-4th-to-7th-2025",
           title: 'I’m thrilled to announce that our paper titled “User-based I/O Profiling for Leadership...',
           description: "",
+          section: "News",},{id: "news-i-m-excited-to-announce-that-i-kicked-off-my-internship-at-oak-ridge-national-laboratory-on-this-day",
+          title: 'I’m excited to announce that I kicked off my internship at Oak Ridge...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
