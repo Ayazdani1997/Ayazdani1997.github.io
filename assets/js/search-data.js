@@ -71,6 +71,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-excited-to-announce-that-i-kicked-off-my-internship-at-oak-ridge-national-laboratory-on-this-day",
           title: 'I’m excited to announce that I kicked off my internship at Oak Ridge...',
           description: "",
+          section: "News",},{id: "news-today-i-successfully-defended-my-phd-many-thanks-to-my-advisor-dr-ali-butt-my-committee-members-my-collaborators-and-my-labmates-over-the-past-6-years-for-their-support",
+          title: 'Today I successfully defended my PhD 🎉🎉 Many thanks to my advisor Dr...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
