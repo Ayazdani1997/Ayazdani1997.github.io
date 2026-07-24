@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science PhD Candidate at Virginia Tech
+subtitle: PhD in Computer Science from Virginia Tech
 
 profile:
   align: right
   image: ahmad.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Computer Science PhD Candidate at Virginia Tech </p>
+    <p>PhD in Computer Science from Virginia Tech </p>
     <p>ahmadyazdani@vt.edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -25,9 +25,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-My name is Ahmad Hossein Yazdani. I got my bachelor's in computer software engineering from the University of Tehran Iran in 2020. Currently, I'm doing my PhD at Virginia Tech. in Blacksburg, VA, US since August 2020 in computer science under the supervision of Dr. Ali Butt at Distributed System and Storage Lab. My research focuses on studying and resolution the memory and I/O bandwitdh contention for high-performance computing (HPC) workloads, especially large AI/ML workloads like Large Language Models (LLMs). I have also experienced doing intern at Oak Ridge National Laboratory, supervised by Feiyi Wang, Sarp Oral, Ahmad Maroof Karimi, and Arnab Kamur Paul. Additionally, I have served as an intern at Lawrence Berkeley National Laboratory in Berkeley, California, the United States under the supervision of Suren Byna and Jean Luca Bez, aiming to extend my research on identifying the sources of I/O variance in HPC systems. Later, I did another internship at NERSC, Lawrence Berkeley National Laboratory (LBNL) which was on finding directions to resolve the false warnings of Drishti, and I/O recommender tool for HPC applications, and to concretize its recommendations (Like 
-predicting the I/O performance when an unseen configuration is proposed) under the supervision of Stephen Simms, Lisa Gerhardt, and Jean Luca Bez.
+I am Ahmad Hossein Yazdani, an ML systems researcher with a PhD in Computer Science from Virginia Tech. My research spans systems for ML and ML for systems, focusing on memory and I/O bottlenecks in large-scale AI and HPC workloads, including distributed LLM training and intelligent I/O optimization. Through research internships at Oak Ridge National Laboratory and Lawrence Berkeley National Laboratory/NERSC, I have developed ML- and agent-based techniques for diagnosing and improving performance across GPU clusters and parallel storage systems.
 
-Recently I started an internship under supervision of William Godoy and Pedro Vallero. This internship aims to provide efficient solutions for high performance computing workloads using generative AI tools like ChatHPC and ChatMPI.
 
 My research interests include distributed systems optimization, resource management, cloud computing, and high-performance computing (HPC) for AI/ML workloads.

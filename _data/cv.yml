@@ -30,14 +30,14 @@
       institution: Virginia Tech
       year: 2020 - present
       description:
-       - '\(\small \textbf{Metis:}\) The project introduces a data access pattern for Deep Learning workloads to improve cachability. With a small cache, it improves the hit ratio by up to 4.5× compared to the LRU policy.'
-       - '\(\small \textbf{User I/O profiling:}\) Led a collaborative research with Analytics \& AI Methods at Scale Group at ORNL on analytically recognizing user/job behavior in HPC to improve I/O efficiency. The analysis revealed that a users'' job I/O pattern can be predicted over 10 days with >90% accuracy based on app-level I/O stats and app patterns.'
-       - '\(\small \textbf{LLMStore:}\) A collaborative project with ORNL and LBNL to minimize offloading of parameters, optimizer state, and activations in HPC via caching and deduplication. Initial analysis showed >300 GB tensor-offloading traffic for LLaMA fine-tuning.'
+       - '\(\small \textbf{SODA-LLM:}\)  Led the design and implementation of SODA-LLM, a storage-aware tensor placement system for distributed LLM training (PyTorch Tensor Parallelism, Fully Sharded Data Parallelism, DeepSpeed ZeRO), reduced end-to-end latency by 20% and memory usage by 5% on LLaMA-3-8B and Qwen-2-1.5B'
+       - 'Extended \(\small \textbf{OmniFed:}\), a federated learning system framework, with support for gradient compression during the Federated gradient aggregation stage on top of a Ray-based cluster, improving cross-site data-transfer efficiency and reducing communication overhead by 20% in federated training at HPC and cloud scale.'
+       - '\(\small \textbf{SHADE:}\) (A collaboration between Virginia Tech and UVA), an input data caching system for distributed CV training for cloud-scale infrastructure; increased cache hit ratios by up to 4.5×over LRU and optimized data throughput.'
     - title: Research Intern 
       institution: Oak Ridge National Laboratory
       year: 2026
       description:
-        - During this internship (January 2026-), I research the use of AI tools like ChatHPC towards the optimization of HPC workflows with huge memory demand and pressure. Throughout this internship, I will be supervised by William Godoy and Pedro Vallero.
+        - Led the design of IO-SENSE, a multi-agent AI system predicting I/O pattern shifts driven by application semantic changes with 90% accuracy
     - title: Student Assistant at NERSC, Lawrence Berkeley National Laboratory (LBNL), internship
       institution: Lawrence Berkeley National Laboratory (LBNL)
       year: 2024
@@ -47,7 +47,7 @@
       institution: Lawrence Berkeley National Laboratory (LBNL)
       year: 2023
       description:
-        - I continued my research on characterizing the sources of I/O performance variation in HPC, and striving to alleviate the I/O performance variability. I found out a significant I/O variability for various HPC applications like E3SM (For earth modeling) and LAMMP (For molecular simulations). Later continued my research for Large AI models and language models which I'm working on in the LLMStore project
+        - Analyzed I/O variability for HPC workloads (E3SM, LAMMPS) on Lustre, identifying bottlenecks in shared access, metadata contention, and OST data distribution.
     - title: Instructor
       institution: Virginia Tech
       year: 2022 - 2023
